@@ -1,0 +1,11 @@
+if condition:
+    code
+
+or
+if condition: code1; code2; code 3
+
+Toán tử 3 ngôi
+variable = statement 1 if condition else statement 2
+    b = 10
+    a = 100 if b > 100 else 0
+    print(a)

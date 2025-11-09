@@ -1,0 +1,68 @@
+List trong python thì giống mảng của các ngôn ngữ khác
+
+    muốn tách phần tử thành từng phần thì ta có thể dùng như sau:
+s = "Hello"
+a = list(s)
+print(a)
+output: H, e, l, l, o
+
+
+    trong python ta có negative index
+
+a = [1, 2, 3, 4, 5]
+index  : 0,   1,  2,  3,  4
+n-index: -5, -4, -3, -2, -1
+
+    thêm phần tử vào cuối thì
+list.append
+
+    thêm phần tử vào vị trí n
+list.insert(index, value)
+
+    xóa phần tử thì ta dùng hàm
+list.pop(index) #không có index thì xóa ở cuối
+
+    xóa giá trị thì ta dùng hàm
+list.remove(value) # nếu có nhiều phần tử giống thì xóa tk đầu tiên
+
+    nhân bản nội dung của list thì ta dùng phép nhân
+a = [1, 2, 3]
+b = a * 2
+print(b) --> output: [1, 2, 3, 1, 2, 3]
+
+    tìm kiếm phần tử thì ta dùng:
+
+a = ["apple", "orange", "berry", "melon"]
+if "apple" in a:
+    print("Yes")
+
+    kết hợp 2 list thì ta dùng lệnh
+a =[1, 2, 3]
+b =[4, 5, 6]
+a.extend(b)
+-->output: 1, 2, 3, 4, 5, 6
+
+    hàm để copy list thành list moi
+a.copy(list)
+
+    tìm số lần xuất hiện của một phần tử nào đó
+list.count(value)
+
+    đảo list thì dùng hàm reversed()
+hoặc ta có thể dùng như sau
+a =[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+b = a[::-1]
+
+    dùng hàm sort để sắp sếp
+    dùng hàm sorted để trả về một list khác đã sắp xếp không thay đổi list
+ban đầu
+
+    List Sclicing
+cú pháp: list[start: stop: step]
+a =[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+b = a[2:]-->output: [3, 4, 5, 6, 7, 8, 9, 10]
+
+thay đổi nhiều giá trị trong 1 đoạn
+a =[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+a[1:5] ="Hello"
+a[1:5] = [1, 2, 3]

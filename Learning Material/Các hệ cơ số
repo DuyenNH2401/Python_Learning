@@ -1,0 +1,26 @@
+1. Hệ nhị phân
+
+chuyển từ cơ số 10 về 2 thì ta đem chia cho 2 và lấy phần dư:
+ví dụ:
+37 // 2 = 18 1
+18 // 2 = 9  0
+9  // 2 = 4  1
+4  // 2 = 2  0
+2  // 2 = 1  0
+1  // 2 = 0  1
+0  // 2 =...
+và viết từ dưới lên 34 => 100101
+
+chuyển từ nhị phân sang thập phân thì ta tính:
+  1      0      0      1      0      1
+1.2^5  0.2^4  0.2^3  1.2^2  0.2^1  1.2^0
+
+
+2. hệ 16
+
+chuyển từ 10 sang 16 thì ta chia lấy dư cho 16
+dư từ 0-->9 thì ta giữ nguyên số
+dư từ 10-->15 thì ta chuyển thành A, B, C, D, E, F
+
+chuyển từ hệ 16 sang hệ thập phân thì ta làm như nhị phân sang nhưng thay
+cơ số 2 thành 16

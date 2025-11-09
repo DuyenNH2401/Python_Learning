@@ -1,0 +1,26 @@
+cú phap
+def name(argument):
+    code
+    return a # dùng để trả về giá trị nếu không có return thì trả về none
+
+code dùng để chạy hàm
+
+if __name__ == "__main__"
+    #code
+
+có thể tạo hàm như sau:
+
+    # 2 tham số keyword
+Xin_chao(ten = "Dũng",loi_chao = "bạn khỏe không?")
+
+# 2 tham số keyword, thứ tự tham số thay đổi
+Xin_chao(loi_chao = "bạn khỏe không?",ten = "Dũng")
+
+# 1 tham số keyword, 1 theo vị trí
+Xin_chao("Dũng",loi_chao = "bạn khỏe không?")
+
+# nhiều tham số đưa vào trong một lần
+xin_chao(*ten)
+    for ten in ten_chao:
+        print(ten)
+xin_chao(a, b, c, d, e, f)

@@ -1,0 +1,5 @@
+c = input()
+if c.islower(): print("Lower")
+elif c.isupper(): print("Upper")
+elif c.isdigit(): print("Digital")
+else: print("Special")

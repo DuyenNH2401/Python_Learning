@@ -1,0 +1,3 @@
+dùng để tạo nhanh 1 hàm
+
+func = lambda x: x**2

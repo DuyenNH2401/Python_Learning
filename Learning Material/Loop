@@ -1,0 +1,9 @@
+cú pháp
+for var in iterable:
+    statement
+    statement
+else: # Sau khi xong vòng lặp thì sẽ thực hiện else
+
+While condition:
+    code
+else:

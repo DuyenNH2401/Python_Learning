@@ -1,0 +1,14 @@
+để sử dụng hàm toán học trong python như căn, giá trị td,...
+thì ta phải import math
+có thể dùng print(help(math)) để xem các cách dùng lệnh
+
+# sqrt: square root dùng để tính căn bậc 2 và isqrt dùng để tính căn bậc 2 và lấy phần nguyên
+#math.pow dùng để tính giá trị lũy thừa có thể dùng pow(a, 1/n) để tính căn bậc n
+#ceil: ceilling dùng để làm tròn lên
+#floor: florring dùng để làm tròn xuống
+#factorial: giai thừa
+#gdc :ước chung lớn nhất
+#perm : chỉnh hợp số cách chọn ra k phần tử từ n phần tử nếu không nhâp k thì thành hoán vị(giai thừa)
+#comb: tính tổ hợp chập k của n math.comb(n,k)
+#abs
+#có thể dùng max, min để tìm max và min và sum để tính tổng các phần tử

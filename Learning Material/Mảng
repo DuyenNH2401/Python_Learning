@@ -1,0 +1,12 @@
+Nhập mảng 1 dòng các phần tử kiểu str
+    arr = input().split()
+Nhập mảng 1 dòng các phần tử kiểu int
+    arr = list(map(int, input("Nhập các số nguyên: ").split()))
+Sử dụng hàm Numpy
+    import numpy as np
+arr = np.array(input("Nhập các số nguyên, cách nhau bởi dấu phẩy: ").split(','), dtype=int)
+
+Cho một chuỗi có các số từ chuỗi chuyển thành số nguyên lưu vào mảng
+a ="12345678910"
+b = [int(i) for i in a]
+print(b)
